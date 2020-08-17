@@ -36,6 +36,11 @@
     <%= form.date_select(:dob, id: :user_dob, :start_year => 1920) %>
   </div>
 
+  <div class="field">
+    <%= form.label :avatar %>
+    <%= form.file_field :avatar %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
